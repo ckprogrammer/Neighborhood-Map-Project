@@ -71,15 +71,12 @@ var location_marker = function(location_data) {
     });
     // show item info when selected from list
     this.show = function(location) {
-        google.maps.event.triggerHandler
-
+        google.maps.event.trigger
         (self.marker, 'click'); //I researched more information about .trigger in this link: http://api.jquery.com/trigger/.
     };
 };
 
-// This function populates the largeInfoWindow when the marker is clicked. We'll only allow
-// one infowindow which will open at the marker that is clicked, and populate based
-// on that markers position.
+// This function populates the largeInfoWindow when the marker is clicked. The infowindow displays the important information like the name of the Restaurant, the address and its exact location.
 function populateInfoWindow(marker, street, city, googleMapsInfoWindow) {
     // This checks if the infowindow is already open.
     if (googleMapsInfoWindow.marker != marker) {
@@ -88,7 +85,7 @@ function populateInfoWindow(marker, street, city, googleMapsInfoWindow) {
         googleMapsInfoWindow.addListener('closeclick', function() {
             googleMapsInfoWindow.marker = null;
         });
-        //This puts the information into all of the the InfoWindows.
+        //This puts the information into all of the the InfoWindows. This is 'how' the information is shown on the infowindows. (what size, what order, etc.)
         googleMapsInfoWindow.setContent('<div>' + '<h2>' + 'Restaurant: ' + marker.title + '</h2>' + '</br>' + 'Position: ' + marker.position + '<p>' + street + "<br>" + city + "</p>" + '</div>');
         googleMapsInfoWindow.open(map, marker);
     }
@@ -96,14 +93,13 @@ function populateInfoWindow(marker, street, city, googleMapsInfoWindow) {
 
 var FilterFunction = function() {
     var self = this;
-    this.searchItem = ko.observable('');
+    this.searchItem = ko.observable('');  //http://knockoutjs.com/documentation/observableArrays.html This link is what I used to research more about observable arrays.
     this.mapList = ko.observableArray([]);
-    // add location markers for each location
+
     locations.forEach(function(location) {
         self.mapList.push( new location_marker(location) );
     });
 
-    // locations viewed on map
     this.locationList = ko.computed(function() {
         var searchFilter = self.searchItem().toLowerCase();
         if (searchFilter) {
