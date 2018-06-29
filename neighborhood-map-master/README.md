@@ -1,5 +1,5 @@
 # Neighborhood Map Project
-## Link to my optimized webpage:
+## Link to my optimized webpage: https://ckprogrammer.github.io/Neighborhood-Map-Project/index.html.
 
 This is the Project of the Neighborhood Map from [Udacity's Front End Web Developer Program](https://eu.udacity.com/course/front-end-web-developer-nanodegree--nd001).
 
