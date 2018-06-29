@@ -11,3 +11,17 @@ In this project, I created a map using the Google Maps API of Düsseldorf City. 
 3. Double click on the Downloaded zip-file in your downloads on your computer.
 4. Open the index.html file on your browser.
 5. You should be ready to go!
+
+## APIs I used:
+1. Google Maps
+2. Foursquare
+
+## Sources and additional research I did:
+1. Google Fonts: https://fonts.google.com/
+2. Foursquare: https://foursquare.com/ and https://developer.foursquare.com/
+3. Google maps API annimations: https://developers.google.com/maps/documentation/javascript/examples/marker-animations
+4. jquery: http://api.jquery.com/trigger/
+5. w3 schools: https://www.w3schools.com/
+6. stackoverflow: https://stackoverflow.com/
+
+#IMPORTANT!! In this project, I worked with my sister Amelia Krafft on this project, so we have similar codes!!
