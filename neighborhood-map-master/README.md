@@ -24,4 +24,4 @@ In this project, I created a map using the Google Maps API of Düsseldorf City. 
 5. w3 schools: https://www.w3schools.com/
 6. stackoverflow: https://stackoverflow.com/
 
-# IMPORTANT!! In this project, I worked with my sister Amelia Krafft on this project, so we have similar codes!!
+### IMPORTANT!! In this project, I worked with my sister Amelia Krafft on this project, so we have similar codes!!
