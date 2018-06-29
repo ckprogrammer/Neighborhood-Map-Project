@@ -20,7 +20,7 @@ In this project, I created a map using the Google Maps API of Düsseldorf City. 
 1. Google Fonts: https://fonts.google.com/
 2. Foursquare: https://foursquare.com/ and https://developer.foursquare.com/
 3. Google maps API annimations: https://developers.google.com/maps/documentation/javascript/examples/marker-animations
-4. jquery: http://api.jquery.com/trigger/
+4. jquery: http://api.jquery.com/trigger/, http://knockoutjs.com/documentation/observableArrays.html
 5. w3 schools: https://www.w3schools.com/
 6. stackoverflow: https://stackoverflow.com/
 7. Projects I already did in Udacity like: GeocodingInTheApp.
