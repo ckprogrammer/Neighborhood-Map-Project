@@ -23,5 +23,6 @@ In this project, I created a map using the Google Maps API of Düsseldorf City. 
 4. jquery: http://api.jquery.com/trigger/
 5. w3 schools: https://www.w3schools.com/
 6. stackoverflow: https://stackoverflow.com/
+7. Projects I already did in Udacity like: GeocodingInTheApp.
 
 ### IMPORTANT!! In this project, I worked with my sister Amelia Krafft on this project, so we have similar codes!!
